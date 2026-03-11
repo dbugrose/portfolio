@@ -1,25 +1,10 @@
 import React from 'react'
 import Arrow from './Arrow'
 
-// gsap.set(".card", { transformStyle: "preserve-3d", transformPerspective: 1000 });
-// gsap.set(".cardBack", { rotationY: -180 });
-
-// // Create timeline
-// const tl = gsap.timeline({ paused: true })
-//   .to(".cardFront", { duration: 1, rotationY: 180 })
-//   .to(".cardBack", { duration: 1, rotationY: 0 }, 0); // 0 = start at same time
-
-// // Hover triggers
-// const card = document.querySelector(".card");
-// if (card)
-// {card.addEventListener("mouseenter", () => tl.play());
-// card.addEventListener("mouseleave", () => tl.reverse());
-// }
-
 const Cards = () => {
   return (
-    <section>
-    <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-5'>
+    <section className='flex flex-col items-center justify-center'>
+    <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-5 items-center justify-center'>
 <div className="flip-card bg-[#d1a8da]">
   <div className="flip-card-inner bg-[#d1a8da] text-white shadow-[#4f1254] shadow-lg">
     <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
@@ -56,8 +41,9 @@ const Cards = () => {
     </div>
   </div>
 </div>
-<Arrow/>
 </div>
+<Arrow/>
+
 </section>
 
 

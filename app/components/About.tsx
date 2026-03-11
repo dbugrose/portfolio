@@ -5,10 +5,9 @@ import AnimatedAbout from './AnimatedAbout'
 
 const About = () => {
     return (
-        <div className='block'>
-        <section className="section flex justify-center flex-col place-self-center items-center min-h-screen w-[clamp(300px,80vw,1000px)] text-[#d1a8da] text-center">
+        <section className="section flex flex-col place-content-center items-center min-h-screen w-full text-[#d1a8da] text-center lg:px-15">
             <AnimatedAbout />
-            <p className='font-(family-name:--font-groovy-day) text-[clamp(12px,18px,18px)] text-shadow-xs  text-shadow-[#4f1254]'>
+            <p className='font-(family-name:--font-groovy-day) text-[clamp(12px,18px,18px)] text-shadow-xs text-center text-shadow-[#4f1254]'>
                 My web development is focused on building fun, dynamic,
                 and accessible applications using modern technologies like
                 APIs, Next.js, HTML, CSS, Javascript, and more!
@@ -42,7 +41,6 @@ const About = () => {
                 </div>
             <Arrow />
         </section >
-        </div>
     )
 
 }
