@@ -21,9 +21,9 @@ const Cards = () => {
     <section>
     <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-5'>
 <div className="flip-card bg-[#d1a8da]">
-  <div className="flip-card-inner bg-[#d1a8da] text-white">
-    <div className="flip-card-front flex flex-col text-center justify-center items-center">
-      <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-2xs">Pokemon Generator</p>
+  <div className="flip-card-inner bg-[#d1a8da] text-white shadow-[#4f1254] shadow-lg">
+    <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
+      <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-sm text-shadow-[#4f1254]">Pokemon Generator</p>
       <br/>
       <p>Front-end project using HTML, CSS, Javascript, and fetching from an existing API</p>
     </div>
@@ -32,10 +32,10 @@ const Cards = () => {
     </div>
   </div>
 </div>
-<div className="flip-card bg-[#d1a8da]">
-  <div className="flip-card-inner bg-[#d1a8da] text-white">
-    <div className="flip-card-front flex flex-col text-center justify-center items-center">
-      <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-2xs">Rock Paper Scissors Lizard Spock</p><br/>
+<div className="flip-card bg-[#d1a8da] ">
+  <div className="flip-card-inner bg-[#d1a8da] text-white shadow-[#4f1254] shadow-lg">
+    <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
+      <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-sm text-shadow-[#4f1254]">Rock Paper Scissors Lizard Spock</p><br/>
     <p>Full-stack project using HTML, CSS, Javascript, and an API built from scratch</p>
     </div>
     <div className="flip-card-back h-full w-full overflow-y-scroll font-(family-name:--font-meow-script)!" >
@@ -43,10 +43,10 @@ const Cards = () => {
     </div>
   </div>
 </div>
-<div className="flip-card bg-[#d1a8da]">
-  <div className="flip-card-inner bg-[#d1a8da] text-white">
-    <div className="flip-card-front flex flex-col text-center justify-center items-center">
-      <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-2xs">All For One Rebuild</p><br/>
+<div className="flip-card bg-[#d1a8da]  ">
+  <div className="flip-card-inner bg-[#d1a8da] text-white shadow-[#4f1254] shadow-lg">
+    <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
+      <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-sm text-shadow-[#4f1254]">All For One Rebuild</p><br/>
     <p>A Full-stack project using Next.JS featuring 10 minigames (each with a custom-built API)</p>
     </div>
     <div className="flip-card-back h-full w-full overflow-y-scroll font-(family-name:--font-meow-script)!" >
@@ -56,6 +56,7 @@ const Cards = () => {
     </div>
   </div>
 </div>
+<Arrow/>
 </div>
 </section>
 

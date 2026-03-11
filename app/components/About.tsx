@@ -5,9 +5,10 @@ import AnimatedAbout from './AnimatedAbout'
 
 const About = () => {
     return (
-        <section className="section flex justify-center flex-col place-self-center items-center min-h-screen w-[clamp(300px,80vw,800px)] text-[#d1a8da] text-center">
+        <div className='block'>
+        <section className="section flex justify-center flex-col place-self-center items-center min-h-screen w-[clamp(300px,80vw,1000px)] text-[#d1a8da] text-center">
             <AnimatedAbout />
-            <p className='font-(family-name:--font-groovy-day) text-shadow-sm'>
+            <p className='font-(family-name:--font-groovy-day) text-[clamp(12px,18px,18px)] text-shadow-xs  text-shadow-[#4f1254]'>
                 My web development is focused on building fun, dynamic,
                 and accessible applications using modern technologies like
                 APIs, Next.js, HTML, CSS, Javascript, and more!
@@ -17,8 +18,8 @@ const About = () => {
                 <br /><br />
                 Let me show you what I can do!
             </p>
-            <h1 className="text-5xl font-(family-name:--font-meow-script) my-1 lg:my-5 md:my-2 text-shadow-xs">Proficiencies</h1><br />
-                <div className='bg-[#ffffffaa] rounded-md flex flex-row overflow-x-scroll m-x-5 border-2 border-[#b18ad8] w-[clamp(300px,80vw,500px)] space-x-5'>
+            <h1 className="text-5xl font-(family-name:--font-meow-script) my-1 lg:my-5 md:my-2 text-shadow-xs  text-shadow-[#4f1254]">Proficiencies</h1><br />
+                <div className='bg-[#ffffffaa] rounded-md flex flex-row overflow-x-scroll m-x-5 p-2 border-2 border-[#b18ad8] w-[clamp(300px,80vw,500px)] space-x-5'>
 
                     <img src="/assets/azure-plain.png" alt="" width="100px" height="100px" />
                     <img src="/assets/azuresqldatabase-original.png" alt="" width="100px" height="100px" />
@@ -40,8 +41,8 @@ const About = () => {
                     <img src="/assets/swagger-original.png" alt="" width="100px" height="100px" />
                 </div>
             <Arrow />
-
         </section >
+        </div>
     )
 
 }
