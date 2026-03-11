@@ -4,14 +4,16 @@ import Hero from "./components/Hero";
 import About from "./components/About"
 import Projects from "./components/Projects";
 import TriviaGame from "./components/TriviaGame";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
     <div className="bg-[url(/assets/rm456-004.jpg)] bg-cover min-h-screen text-[#d1a8da] bg-fixed">
-      <Hero/>
-      <About/>
-      <Projects/>
-      <TriviaGame/>
+     <Hero/>
+     <About/>
+     <Projects/>
+     <TriviaGame/>
+     <Contact/>
     </div>
   );
 }

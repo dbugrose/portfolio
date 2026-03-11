@@ -1,4 +1,5 @@
 import React from 'react'
+import Arrow from './Arrow'
 
 // gsap.set(".card", { transformStyle: "preserve-3d", transformPerspective: 1000 });
 // gsap.set(".cardBack", { rotationY: -180 });
@@ -17,6 +18,7 @@ import React from 'react'
 
 const Cards = () => {
   return (
+    <section>
     <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-5'>
 <div className="flip-card bg-[#d1a8da]">
   <div className="flip-card-inner bg-[#d1a8da] text-white">
@@ -49,11 +51,13 @@ const Cards = () => {
     </div>
     <div className="flip-card-back h-full w-full overflow-y-scroll font-(family-name:--font-meow-script)!" >
       <img src="/assets/image.png" alt="pokemon generator" />
+        <div className='[@media(max-width:850px)]:mt-35'>
+                  </div>
     </div>
   </div>
 </div>
 </div>
-
+</section>
 
 
   )

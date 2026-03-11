@@ -3,7 +3,7 @@ import Arrow from "./Arrow";
 
 const TriviaGame = () => {
   return (
-    <section className="flex justify-center items-center">
+    <section className="flex justify-center items-center min-h-screen">
     <iframe
       src="https://play.unity.com/api/v1/games/game/1a32fd24-4ecd-4e45-90aa-f68c77c94be4/build/latest/frame"
       width="80%"
@@ -12,6 +12,7 @@ const TriviaGame = () => {
       allow="autoplay; fullscreen; gamepad"
       allowFullScreen
       title="Unity Game"
+      className="hidden min-[1100]:block"
     />
     <Arrow/>
     </section>
