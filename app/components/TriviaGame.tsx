@@ -12,7 +12,7 @@ const TriviaGame = () => {
       allow="autoplay; fullscreen; gamepad"
       allowFullScreen
       title="Unity Game"
-      className="hidden min-[1100]:block"
+      className="hidden min-[1100]:block mb-10"
     />
     <Arrow/>
     </section>

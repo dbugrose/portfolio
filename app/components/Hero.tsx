@@ -1,6 +1,5 @@
 import React from 'react'
 import Arrow from './Arrow'
-import AnimatedDarcy from './AnimatedDarcy'
 import AnimatedName from './AnimatedDarcy'
 
 

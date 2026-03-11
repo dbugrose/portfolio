@@ -12,7 +12,7 @@ const ScrollArrow = () => {
 
     return (
         <svg 
-        className="smooth-float"
+        className="smooth-float-up"
         onClick={handleScrollUp}
         viewBox="0 0 24.00 24.00" 
         fill="none" 
