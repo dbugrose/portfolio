@@ -5,7 +5,7 @@ import Cards from './Cards'
 
 const Projects = () => {
     return (
-        <div className='block'>
+        <section id="section3" className='block'>
         <div className='flex flex-col justify-center items-center [@media(max-width:850px)]:mt-35 [@media(max-width:850px)]:mb-50'>
         <section className="section flex justify-center flex-col place-self-center items-center min-h-full w-[clamp(300px,80vw,800px)] text-[#d1a8da] text-center [@media(max-width:850px)]:mt-35 [@media(max-width:850px)]:mb-50">
             <AnimatedProjects />
@@ -15,7 +15,7 @@ const Projects = () => {
         </section >
 
         </div>
-        </div>
+        </section>
     )
 }
 

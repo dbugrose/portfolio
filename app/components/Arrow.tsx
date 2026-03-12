@@ -1,20 +1,36 @@
 "use client"
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 const ScrollArrow = () => {
-    const handleScroll = () => {
-        const nextSection = window.scrollY + window.innerHeight;
+  const sectionsRef = useRef<HTMLElement[]>([]);
 
-        window.scrollTo({
-            top:nextSection,
-            behavior: "smooth"
-        });
-    };
+  useEffect(() => {
+    sectionsRef.current = Array.from(document.querySelectorAll('section[id]'));
+  }, []);
+
+  const scrollToNextSection = () => {
+    const currentScrollPosition = window.scrollY || document.documentElement.scrollTop;
+    let nextSection: HTMLElement | undefined;
+
+    for (const section of sectionsRef.current) {
+      if (section.offsetTop > currentScrollPosition + 1) {
+        nextSection = section;
+        break;
+      }
+    }
+
+    if (nextSection) {
+      nextSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  };
 
     return (
         <svg
             className="smooth-float"
-            onClick={handleScroll}
+            onClick={scrollToNextSection}
             width="196px"
             height="196px"
             viewBox="0 0 24.00 24.00"
@@ -40,6 +56,6 @@ const ScrollArrow = () => {
             </g>
         </svg>
     );
-};
+}
 
 export default ScrollArrow;

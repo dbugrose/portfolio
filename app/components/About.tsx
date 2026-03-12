@@ -5,7 +5,7 @@ import AnimatedAbout from './AnimatedAbout'
 
 const About = () => {
     return (
-        <section className="section flex flex-col place-content-center items-center min-h-screen w-full text-[#d1a8da] text-center lg:px-15">
+        <section id="section2" className="section flex flex-col place-content-center items-center min-h-screen w-full text-[#d1a8da] text-center lg:px-15">
             <AnimatedAbout />
             <p className='font-(family-name:--font-groovy-day) text-[clamp(12px,18px,18px)] text-shadow-xs text-center text-shadow-[#4f1254]'>
                 My web development is focused on building fun, dynamic,
