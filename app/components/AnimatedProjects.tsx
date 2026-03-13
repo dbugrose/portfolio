@@ -28,7 +28,7 @@ export default function AnimatedName() {
   return (
     <h1
       ref={textRef}
-      className="groovyday text-[#ffffff] text-[clamp(16px,8vw,8vw)] text-shadow-lg text-shadow-[#4f1254] flex gap-[0.02em]"
+      className="groovyday text-[#ffffff] text-[clamp(16px,8vw,8vw)] text-shadow-lg text-shadow-[#824687] flex gap-[0.02em]"
     >
       {text.split("").map((char, i) => (
         <span key={i} className="letter inline-block">
