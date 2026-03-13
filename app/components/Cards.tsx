@@ -5,7 +5,7 @@ const Cards = () => {
   return (
     <section className='flex flex-col items-center justify-center'>
       <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-5 items-center justify-center'>
-        <a href="https://yellow-river-0af2dd21e.6.azurestaticapps.net/"><div className="flip-card bg-[#d1a8da]">
+        <a href="https://yellow-river-0af2dd21e.6.azurestaticapps.net/" target="_blank"><div className="flip-card bg-[#d1a8da]">
           <div className="flip-card-inner bg-[#d1a8da] text-white shadow-[#4f1254] shadow-lg">
             <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
               <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-sm text-shadow-[#4f1254]">Pokemon Generator</p>
@@ -17,7 +17,7 @@ const Cards = () => {
             </div>
           </div>
         </div></a>
-        <a href="https://kind-glacier-02d65421e.2.azurestaticapps.net/"><div className="flip-card bg-[#d1a8da] ">
+        <a href="https://kind-glacier-02d65421e.2.azurestaticapps.net/" target="_blank"><div className="flip-card bg-[#d1a8da] ">
           <div className="flip-card-inner bg-[#d1a8da] text-white shadow-[#4f1254] shadow-lg">
             <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
               <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-sm text-shadow-[#4f1254]">Rock Paper Scissors Lizard Spock</p><br />
@@ -28,7 +28,7 @@ const Cards = () => {
             </div>
           </div>
         </div></a>
-        <a href="https://lemon-beach-0940c471e.2.azurestaticapps.net/"><div className="flip-card bg-[#d1a8da]  ">
+        <a href="https://lemon-beach-0940c471e.2.azurestaticapps.net/" target="_blank"><div className="flip-card bg-[#d1a8da]  ">
           <div className="flip-card-inner bg-[#d1a8da] text-white shadow-[#4f1254] shadow-lg">
             <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
               <p className="font-(family-name:--font-meow-script) text-3xl text-shadow-sm text-shadow-[#4f1254]">All For One Rebuild</p><br />
