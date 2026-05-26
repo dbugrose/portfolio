@@ -5,10 +5,10 @@ import AnimatedProficiencies from "./AnimatedProficiencies";
 const Proficiencies = () => {
   return (
     <section
-      className="section flex flex-col place-content-center items-center min-h-screen w-full text-[#d1a8da] text-center lg:px-15"
+      className="section flex flex-col place-content-center items-center min-h-screen w-full max-h-full text-[#d1a8da] text-center lg:px-15"
     >
       <AnimatedProficiencies />
-      <div className="w-full flex flex-wrap justify-center">
+      <div className="w-full flex flex-wrap justify-center overflow-x-scroll">
         <div className="group relative inline-block">
           <button className=" text-white px-4 py-2 rounded">
             <img
