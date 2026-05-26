@@ -8,7 +8,7 @@ import React from 'react'
 const NavComponent = async () => {
 return (
     <>
-    <Navbar fluid rounded className="fixed w-full bg-[#d1a8da]! z-2 ">
+    <Navbar fluid rounded className="fixed w-full bg-[#d1a8da]!">
       <NavbarBrand>
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Darcy Rose, Web Developer</span>
       </NavbarBrand>
