@@ -10,14 +10,14 @@ import Proficiencies from "./components/Proficiencies";
 
 export default function Home() {
   return (
-    <div className="bg-[url(/assets/rm456-004.jpg)] bg-cover min-h-screen text-[#a767b5] bg-fixed">
+    <div  id="section1" className="bg-[url(/assets/rm456-004.jpg)] bg-cover min-h-screen text-[#a767b5] bg-fixed">
      <Hero/>
-     <section id="about" className="pt-20"><About/></section>
-      <section id="proficiencies" className="pt-20"><Proficiencies/></section>
-     <section id="projects" className="pt-20"><Projects/></section>
-     <section id="trivia" className="pt-20"><div className="hidden min-[1100]:block mb-10"><TriviaGame/></div></section>
-     <section id="resume" className="pt-20"><div className="hidden min-[850]:block mb-10"><Resume/></div></section>
-     <section id="contact" className="pt-20"><Contact/></section>
+     <section id="about"><About/></section>
+     <section id="proficiencies"><Proficiencies/></section>
+     <section id="projects"><Projects/></section>
+     <section id="trivia"><TriviaGame/></section>
+     <section id="resume"><Resume/></section>
+     <section id="contact"><Contact/></section>
     </div>
   );
 }

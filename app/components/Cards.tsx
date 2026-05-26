@@ -42,7 +42,7 @@ const Cards = () => {
           </div>
         </div></a>
       </div>
-      <Arrow />
+      {/* <Arrow /> */}
 
     </section>
 

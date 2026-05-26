@@ -17,7 +17,7 @@ const About = () => {
                 <br /><br />
                 Let me show you what I can do!
             </p>                
-            <Arrow />
+            {/* <Arrow /> */}
         </section >
     )
 

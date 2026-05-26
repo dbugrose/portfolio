@@ -14,6 +14,7 @@ return (
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
+        <div className="flex items-center gap-3">
         <NavbarLink href="#" className="text-white!">
           Home
         </NavbarLink>
@@ -26,15 +27,16 @@ return (
                 <NavbarLink href="#projects" className="text-white!">
           Projects
         </NavbarLink>
-                <NavbarLink href="#trivia" className="text-white! hidden min-[1100]:block mb-10">
+                <NavbarLink href="#trivia" className="text-white! hidden min-[1100]:block">
           Trivia
         </NavbarLink>
-                <NavbarLink href="#resume" className="text-white! hidden min-[1100]:block mb-10">
+                <NavbarLink href="#resume" className="text-white! hidden min-[1100]:block">
           Resume
         </NavbarLink>
                 <NavbarLink href="#contact" className="text-white!">
           Contact
         </NavbarLink>
+        </div>
       </NavbarCollapse>
     </Navbar>
     </>

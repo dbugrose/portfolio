@@ -5,7 +5,6 @@ import AnimatedProficiencies from "./AnimatedProficiencies";
 const Proficiencies = () => {
   return (
     <section
-      id="section2"
       className="section flex flex-col place-content-center items-center min-h-screen w-full text-[#d1a8da] text-center lg:px-15"
     >
       <AnimatedProficiencies />
@@ -229,17 +228,10 @@ const Proficiencies = () => {
             <h3 className="font-bold">Sqlite</h3>
           </div>
         </div>
-                
 
-
-        
-
-        
-
-        
       </div>
 
-      <Arrow />
+      {/* <Arrow /> */}
     </section>
   );
 };

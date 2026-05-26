@@ -14,7 +14,7 @@ const TriviaGame = () => {
       title="Unity Game"
       className="hidden min-[1100]:block mb-10"
     />
-    <Arrow/>
+    {/* <Arrow/> */}
     </section>
   );
 };

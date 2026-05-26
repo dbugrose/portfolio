@@ -4,7 +4,7 @@ import ArrowUp from './ArrowUp'
 
 const Contact = () => {
   return (
-        <section id="section5" className='section flex justify-center flex-col w-full text-[#a767b5] text-center'>
+        <section className='section flex justify-center flex-col w-full text-[#a767b5] text-center'>
         <AnimatedContact/>
         <p className='text-[clamp(18px,2vw,2vw)]'> <span className='text-[clamp(18px,3vw,3vw)] font-(family-name:--font-meow-script)'> Email:</span> darcy.ophelia.rose@gmail.com</p>
         <p className='text-[clamp(18px,2vw,2vw)]'><span className='text-[clamp(18px,3vw,3vw)] font-(family-name:--font-meow-script)'>GitHub:</span>  <a href="https://www.github.com/dbugrose/">github.com/dbugrose</a></p>
@@ -12,7 +12,7 @@ const Contact = () => {
         <p className='text-[clamp(18px,2vw,2vw)]'><span className='text-[clamp(18px,3vw,3vw)] font-(family-name:--font-meow-script)'>Phone Number:</span> 209-684-9453</p>
 
   
-      <ArrowUp/>
+      {/* <ArrowUp/> */}
       </section >
   
   )
