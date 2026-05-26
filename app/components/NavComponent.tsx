@@ -26,10 +26,10 @@ return (
                 <NavbarLink href="#projects" className="text-white!">
           Projects
         </NavbarLink>
-                <NavbarLink href="#trivia" className="text-white!">
+                <NavbarLink href="#trivia" className="text-white! hidden min-[1100]:block mb-10">
           Trivia
         </NavbarLink>
-                <NavbarLink href="#resume" className="text-white!">
+                <NavbarLink href="#resume" className="text-white! hidden min-[1100]:block mb-10">
           Resume
         </NavbarLink>
                 <NavbarLink href="#contact" className="text-white!">
