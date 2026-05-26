@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Sour_Gummy, Meow_Script, Geist, Geist_Mono } from 'next/font/google';
 import LocalFont from "next/font/local";
+import NavComponent from "./components/NavComponent";
 
 
 const meowScript = Meow_Script({
@@ -40,7 +41,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${sourGummy.className} ${meowScript.variable} antialiased`}
-      >
+      ><NavComponent/>
         {children}
       </body>
     </html>
