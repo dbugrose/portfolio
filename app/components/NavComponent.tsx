@@ -14,7 +14,7 @@ return (
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col xl:flex-row lg:flex-row lg:items-center lg:gap-3  xl:items-center xl:gap-3">
         <NavbarLink href="#" className="text-white!">
           Home
         </NavbarLink>
