@@ -1,35 +1,247 @@
-import React from 'react'
-import Arrow from './Arrow'
-import AnimatedProficiencies from './AnimatedProficiencies'
-
+import React from "react";
+import Arrow from "./Arrow";
+import AnimatedProficiencies from "./AnimatedProficiencies";
 
 const Proficiencies = () => {
-    return (
-        <section id="section2" className="section flex flex-col place-content-center items-center min-h-screen w-full text-[#d1a8da] text-center lg:px-15">
-            <AnimatedProficiencies />
-<div className='w-full flex flex-wrap justify-center'><img src="/assets/azure-plain.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/azuresqldatabase-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/bootstrap-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/csharp-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/tailwindcss-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/vscode-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/typescript-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/vercel-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/entityframeworkcore-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/figma-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/github-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/html5-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/javascript-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/postman-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/nextjs-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/slack-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/sqlite-original.png" alt="" width="100px" height="100px" />
-                    <img src="/assets/swagger-original.png" alt="" width="100px" height="100px" /></div>
-                    
-            <Arrow />
-        </section >
-    )
+  return (
+    <section
+      id="section2"
+      className="section flex flex-col place-content-center items-center min-h-screen w-full text-[#d1a8da] text-center lg:px-15"
+    >
+      <AnimatedProficiencies />
+      <div className="w-full flex flex-wrap justify-center">
+        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+            <img
+              src="/assets/azure-plain.png"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Azure</h3>
+          </div>
+        </div>
+        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+            <img
+              src="/assets/bootstrap-original.png"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Bootstrap</h3>
+          </div>
+        </div>
+        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+            <img
+              src="/assets/csharp-original.png"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">C#</h3>
+          </div>
+        </div>
+        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+            <img
+              src="/assets/tailwindcss-original.png"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Tailwind</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+<img
+          src="/assets/vscode-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">VS Code</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+        <img
+          src="/assets/typescript-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Typescript</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+            <img
+          src="/assets/vercel-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
 
-}
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Vercel</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+                    <img
+          src="/assets/entityframeworkcore-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Entity Framework Core</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+        <img
+          src="/assets/figma-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
 
-export default Proficiencies
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Figma</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+        <img
+          src="/assets/github-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Github</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+        <img
+          src="/assets/html5-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+/>
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Html5</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+        <img
+          src="/assets/javascript-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+        
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Javascript</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+<img
+          src="/assets/postman-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Postman</h3>
+          </div>
+        </div>        <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+        <img
+          src="/assets/nextjs-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Next.js</h3>
+          </div>
+        </div>
+                <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+        <img
+          src="/assets/swagger-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Swagger</h3>
+          </div>
+        </div>
+                <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+<img
+          src="/assets/slack-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Slack</h3>
+          </div>
+        </div>
+                <div className="group relative inline-block">
+          <button className=" text-white px-4 py-2 rounded">
+        <img
+          src="/assets/sqlite-original.png"
+          alt=""
+          width="100px"
+          height="100px"
+        />
+
+          </button>
+          <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-opacity absolute z-10 w-64 p-4 mt-2 bg-white border shadow-xl rounded-lg -translate-x-1/2 left-1/2">
+            <h3 className="font-bold">Sqlite</h3>
+          </div>
+        </div>
+                
+
+
+        
+
+        
+
+        
+      </div>
+
+      <Arrow />
+    </section>
+  );
+};
+
+export default Proficiencies;
