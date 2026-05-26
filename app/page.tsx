@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <div className="bg-[url(/assets/rm456-004.jpg)] bg-cover min-h-screen text-[#a767b5] bg-fixed">
      <Hero/>
-     <section id="about" className="mt-10"><About/></section>
-      <section id="proficiencies" className="mt-10"><Proficiencies/></section>
-     <section id="projects" className="mt-10"><Projects/></section>
-     <section id="trivia" className="mt-10"><div className="hidden min-[1100]:block mb-10"><TriviaGame/></div></section>
-     <section id="resume" className="mt-10"><div className="hidden min-[8100]:block mb-10"><Resume/></div></section>
-     <section id="contact" className="mt-10"><Contact/></section>
+     <section id="about" className="pt-20"><About/></section>
+      <section id="proficiencies" className="pt-20"><Proficiencies/></section>
+     <section id="projects" className="pt-20"><Projects/></section>
+     <section id="trivia" className="pt-20"><div className="hidden min-[1100]:block mb-10"><TriviaGame/></div></section>
+     <section id="resume" className="pt-20"><div className="hidden min-[850]:block mb-10"><Resume/></div></section>
+     <section id="contact" className="pt-20"><Contact/></section>
     </div>
   );
 }
