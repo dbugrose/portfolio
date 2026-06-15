@@ -17,6 +17,10 @@
   perspective: 1000px;
 }
 
+.nav {
+  z-index: 9999;
+}
+
 .flip-card-inner {
   position: relative;
   width: 100%;
