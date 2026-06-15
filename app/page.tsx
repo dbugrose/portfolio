@@ -21,11 +21,11 @@ export default function Home() {
      <section id="projects"><Projects/></section>
           <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
 
-     <section id="trivia"><TriviaGame/></section>
-          <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
+     <section id="trivia" className="max-[850px]:hidden"><TriviaGame/></section>
+          <img src="/assets/divider.png" alt="divider" className="flex place-self-center max-[850px]:hidden"></img>
 
-     <section id="resume"><Resume/></section>
-          <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
+     <section id="resume" className="max-[850px]:hidden"><Resume/></section>
+          <img src="/assets/divider.png" alt="divider" className="flex place-self-center max-[850px]:hidden"></img>
 
      <section id="contact"><Contact/></section>
 
