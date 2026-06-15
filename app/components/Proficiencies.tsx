@@ -5,9 +5,9 @@ import AnimatedProficiencies from "./AnimatedProficiencies";
 const Proficiencies = () => {
   return (
     <section
-      className="section flex flex-col place-content-center items-center min-h-screen w-full max-h-full text-[#d1a8da] text-center px-15 xl:px-40 lg:px-30 md:px-20"
+      className="section flex flex-col justify-center min-h-screen w-full max-h-full text-[#d1a8da] text-center px-15 xl:px-40 lg:px-30 md:px-20"
     >
-      <AnimatedProficiencies />
+      <div className="flex justify-center"><AnimatedProficiencies /></div>
       <div className="w-full flex flex-wrap justify-center overflow-x-scroll">
         <div className="group relative inline-block">
           <button className=" text-white px-4 py-2 rounded">

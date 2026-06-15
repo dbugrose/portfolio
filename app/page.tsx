@@ -11,13 +11,24 @@ import Proficiencies from "./components/Proficiencies";
 export default function Home() {
   return (
     <div  id="section1" className="bg-[url(/assets/rm456-004.jpg)] bg-cover min-h-screen text-[#a767b5] bg-fixed">
-     <Hero/>
+     <Hero/>    
+      <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
      <section id="about"><About/></section>
+     <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
      <section id="proficiencies"><Proficiencies/></section>
+          <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
+
      <section id="projects"><Projects/></section>
+          <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
+
      <section id="trivia"><TriviaGame/></section>
+          <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
+
      <section id="resume"><Resume/></section>
+          <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
+
      <section id="contact"><Contact/></section>
+
     </div>
   );
 }
