@@ -3,7 +3,7 @@ import Arrow from './Arrow'
 
 const Cards = () => {
   return (
-    <section className='flex flex-col items-center justify-center mt-10'>
+    <section className='flex flex-col items-center justify-center mt-10 z-1'>
       <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-15 items-center justify-center text-[#a767b5]! mb-10'>
         <a href="https://yellow-river-0af2dd21e.6.azurestaticapps.net/" target="_blank"><div className="flip-card bg-[#d1a8da]">
           <div className="flip-card-inner bg-[#d1a8da] shadow-lg">

@@ -20,6 +20,8 @@ export default function AnimatedName() {
           ease: "power2.out",
           yoyo: true,
           repeat: 1,
+          zIndex: 1
+
         });
       });
     });
