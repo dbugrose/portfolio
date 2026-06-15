@@ -10,7 +10,7 @@ import Proficiencies from "./components/Proficiencies";
 
 export default function Home() {
   return (
-    <div  id="section1" className="bg-[url(/assets/rm456-004.jpg)] bg-cover min-h-screen text-[#a767b5] bg-fixed">
+    <div  id="section1" className="bg-[url(/assets/rm456-004.jpg)] bg-cover min-h-screen text-[#a767b5] bg-fixed overflow-x-hidden">
      <Hero/>    
       <img src="/assets/divider.png" alt="divider" className="flex place-self-center"></img>
      <section id="about"><About/></section>
