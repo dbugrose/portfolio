@@ -7,8 +7,8 @@ const Cards = () => {
       <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-15 items-center justify-center text-[#a767b5]! mb-10'>
         <a href="https://yellow-river-0af2dd21e.6.azurestaticapps.net/" target="_blank"><div className="flip-card bg-[#d1a8da]">
           <div className="flip-card-inner bg-[#d1a8da] shadow-lg">
-            <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
-              <p className=" text-3xl ">Pokemon Generator</p>
+            <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg p-5">
+              <p className=" text-2xl ">Pokemon Generator</p>
               <br />
               <p>Front-end project using HTML, CSS, Javascript, and fetching from an existing API</p>
             </div>
@@ -19,8 +19,8 @@ const Cards = () => {
         </div></a>
         <a href="https://kind-glacier-02d65421e.2.azurestaticapps.net/" target="_blank"><div className="flip-card bg-[#d1a8da] ">
           <div className="flip-card-inner bg-[#d1a8da] shadow-lg">
-            <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
-              <p className=" text-3xl ">Rock Paper Scissors Lizard Spock</p><br />
+            <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg p-5">
+              <p className=" text-2xl ">Rock Paper Scissors Lizard Spock</p><br />
               <p>Full-stack project using HTML, CSS, Javascript, and an API built from scratch</p>
             </div>
             <div className="flip-card-back h-full w-full overflow-y-scroll !" >
@@ -30,8 +30,8 @@ const Cards = () => {
         </div></a>
         <a href="https://lemon-beach-0940c471e.2.azurestaticapps.net/" target="_blank"><div className="flip-card bg-[#d1a8da]  ">
           <div className="flip-card-inner bg-[#d1a8da] shadow-lg">
-            <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg">
-              <p className=" text-3xl ">All For One Rebuild</p><br />
+            <div className="flip-card-front flex flex-col text-center justify-center items-center shadow-[#4f1254] shadow-lg p-5">
+              <p className=" text-2xl ">All For One Rebuild</p><br />
               <p>A Full-stack project using Next.JS featuring 10 minigames (each with a custom-built API)</p>
             </div>
             <div className="flip-card-back h-full w-full overflow-y-scroll !" >
